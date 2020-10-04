@@ -57,12 +57,12 @@ uses python requests to communicate to the server
 python client.py host_os <address> <port>
 ```
 * host\_os: operating system of the server
-    - this is needed for things like `/ vs c:\`
+    - this is needed for things like `/` vs `c:\`
 
 * address(optional): address of the server
     - if you don't give one here it will ask you later
 
-* port: what port it should connect on
+* port(optional): what port it should connect on
     - default (if blank) is `42068`
 
 ###### commands
