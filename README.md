@@ -1,5 +1,6 @@
 # Description
 http remote shell written with python-flask
+works on windows, linux and probably mac (mac is untested)
 
 
 ### why?
@@ -7,6 +8,8 @@ Have you ever created a one-line reverse shell and ended up relying on it for 2 
 
 ### what it's not for:
 This is not meant to replace ssh in any way, it's just a small improvement for longer operations or shells that want to be less obvious than ssh, telnet, or anything else.
+
+I want to make it clear that this is not for everyone, its a replacement i wrote in a day for a reverse shell and is very good at that but less so at anything else
 
 ### implementation
 TL;DR: flask web server, with a python requests based client to interface with it
