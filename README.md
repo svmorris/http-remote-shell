@@ -1,5 +1,6 @@
-# simple python remote shell
-This is a python implementation of a server that offers a shell and a way to download files
+# Description
+http remote shell written with python-flask
+
 
 ### why?
 Have you ever created a one-line reverse shell and ended up relying on it for 2 years, but don't want to install ssh because the sysadmins might find it suspicious. Probably not, but i had this problem so i built this shell.
